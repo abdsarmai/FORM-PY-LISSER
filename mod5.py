@@ -39,7 +39,7 @@ def afficher_produits():
         messagebox.showwarning("Aucune catégorie sélectionnée", "Veuillez sélectionner au moins une catégorie avant de visualiser les produits.")
 
 root = tk.Tk()
-root.title("Sanaya - 4")
+root.title("Sanaya - 5")
 
 var = {categorie_code: tk.IntVar() for categorie_code in lesCategories.keys()}
 
