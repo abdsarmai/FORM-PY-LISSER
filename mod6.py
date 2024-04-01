@@ -40,7 +40,7 @@ def afficher_produits():
         messagebox.showwarning("Aucune catégorie sélectionnée", "Veuillez sélectionner une catégorie avant de visualiser les produits.")
 
 root = tk.Tk()
-root.title("Sanaya - 6")
+root.title("Sanaya - mod 6")
 
 categorie_combobox = Combobox(root, values=list(lesCategories.values()))
 categorie_combobox.current(0) 
